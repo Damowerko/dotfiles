@@ -58,7 +58,6 @@ bindkey '^[[Z' undo                                             # Shift+tab undo
 # Navigate words with option+arrow keys
 bindkey '^[[1;3D' backward-word                                 # Option + Left
 bindkey '^[[1;3C' forward-word                                  # Option + Right
-bindkey '^?' backward-kill-word                             # Option + Delete
 
 ## Alias section
 alias cp="cp -i"                                                # Confirm before overwriting something
